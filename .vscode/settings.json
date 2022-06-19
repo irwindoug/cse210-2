@@ -1,0 +1,19 @@
+{
+    "python.analysis.extraPaths": [
+        "./hilo"
+    ],
+
+    "python.pythonPath": "venv/bin/python",
+    "python.linting.pylintPath": "venv/bin/pylint",
+    
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/*.pyc": true,
+      "**/__pycache__/": true,
+      "**/.history":true,
+    }
+  }
